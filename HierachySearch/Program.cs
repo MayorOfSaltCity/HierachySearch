@@ -37,7 +37,7 @@ namespace HierachySearch
             level++;
             foreach (XmlNode cNode in node.ChildNodes)
                 PrintHiearchy(cNode, level);
-            level--;
+
         }
 
         static XmlNode FetchHierachy(string input)
